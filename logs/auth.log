@@ -1,1 +1,14 @@
-Currently empty, will be filled with sample logs for testing...
+Apr 27 12:21:43 server sshd[5123]: Failed password for invalid user admin from 192.168.1.100 port 51234 ssh2
+Apr 27 12:21:44 server sshd[5123]: Failed password for invalid user root from 203.0.113.12 port 42311 ssh2
+Apr 27 12:21:45 server sshd[5123]: Failed password for user bob from 10.0.0.5 port 32222 ssh2
+Apr 27 12:21:50 server sshd[5123]: Accepted password for user alice from 198.51.100.10 port 55212 ssh2
+Apr 27 12:21:53 server sshd[5123]: Failed password for invalid user test from 192.168.1.100 port 33333 ssh2
+Apr 27 12:21:55 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1001 euid=0 tty=/dev/pts/1 ruser=bob rhost= user=bob
+Apr 27 12:21:57 server sshd[5123]: Failed password for root from 198.51.100.10 port 12345 ssh2
+Apr 27 12:22:01 server sshd[5123]: Failed password for invalid user admin from 192.168.1.100 port 40000 ssh2
+Apr 27 12:22:05 server sshd[5123]: Disconnected from 203.0.113.12 port 42311 [preauth]
+Apr 27 12:22:08 server sshd[5123]: reverse mapping checking getaddrinfo for 192.168.1.100 [192.168.1.100] failed - POSSIBLE BREAK-IN ATTEMPT!
+Apr 27 12:22:10 server sshd[5123]: Failed password for user root from 8.8.8.8 port 60022 ssh2
+Apr 27 12:22:14 server su: pam_unix(su:auth): authentication failure; logname=bob uid=1001 euid=0 tty=pts/1 ruser=bob rhost= user=root
+Apr 27 12:22:18 server sshd[5123]: Failed password for invalid user ubuntu from 10.0.0.5 port 60123 ssh2
+Apr 27 12:22:22 server sshd[5123]: Connection closed by 8.8.8.8 port 60022 [preauth]
